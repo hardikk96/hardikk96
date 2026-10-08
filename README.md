@@ -149,6 +149,25 @@ flowchart LR
 
 ---
 
+## 🏭 Production Deployments
+
+> Built for employers, running in production. The code is proprietary; the impact isn't.
+
+| System | What it does | Impact | Stack |
+|---|---|---|---|
+| 🤖 **Natural-Language Analytics Platform** · *edYOU* | Educators ask questions in plain English and get answers from student data. GPT/Claude are paired with a PostgreSQL memory engine. | **↓75%** report time | GPT · Claude · PostgreSQL |
+| 🧠 **Learner Mastery Model** · *edYOU* | Scores student mastery from question accuracy, response-time distributions and strength labels. Feeds real-time educator dashboards. | **30K+** records/day | Python · SQL · Dashboards |
+| 🕵️ **Engagement Analysis Agents** · *edYOU* | Multi-tenant AI agents that define KPIs and cohort breakdowns to find where learners drop off. | **↑40%** adoption | LLM Agents · Python |
+| 🎭 **Avatar Interaction Modeling** · *edYOU* | Behavioral baseline for avatar sessions across product platforms. Gives product a way to measure feature impact. | **↓40%** avatar cost | Event Modeling · SQL |
+| 🗄️ **DynamoDB → PostgreSQL Migration** · *edYOU* | Environment-aware migration with a redesigned, normalized relational schema. | **↓50%** query latency | DynamoDB · PostgreSQL |
+| 🔧 **Predictive Maintenance (HMM)** · *Biogas* | Hidden Markov Models on sensor data from 250+ devices flag failures before they happen. | **↓30%** downtime | HMM · Python · AWS |
+| 📜 **RAG Compliance Chatbot** · *Biogas* | Engineers query company documentation through retrieval-augmented GPT. | **1,000+** queries/mo | OpenAI · RAG · LangChain |
+| 💲 **Revenue Forecasting Engine** · *Biogas* | Combines weather, gas-production metrics and market prices to project customer revenue. | **↑30%** pricing accuracy | Time Series · Python |
+| ⚡ **Real-Time Sensor ETL + Alerting** · *Biogas* | Spark pipeline over 10GB+/day of sensor data, with live KPI alerts for leadership. | **24h → 1h** freshness | Spark · S3 · Lambda · Postgres |
+| 🗣️ **Conversational AI Migration** · *L&T Infotech* | Moved Vitamix's chatbot and voice assistant to AWS. Serves 10K+ users a month. | **↑50%** NLP accuracy | AWS Lex · Lambda · Dialogflow |
+
+---
+
 ## 🔬 Featured Experiments
 
 | Project | What it does | Stack |
@@ -188,26 +207,12 @@ me.predict("Open to?")
 
 ---
 
-## 📊 GitHub Telemetry
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hardikk96&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hardikk96&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<img src="https://streak-stats.demolab.com?user=hardikk96&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
 
 <div align="center">
 
 🎓 **MIT** — *Machine Learning: From Data to Decision*
 
 <sub>📬 Reach me at <a href="mailto:kachhwahahardik96@gmail.com">kachhwahahardik96@gmail.com</a> · Loss is decreasing, curiosity is not.</sub>
-
-<img src="https://komarev.com/ghpvc/?username=hardikk96&color=36BCF7&style=flat-square&label=Profile+Views"/>
 
 </div>
 
